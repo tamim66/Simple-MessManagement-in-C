@@ -26,9 +26,12 @@ A simple terminal-based Mess Management System built in C using MySQL for backen
 - Create a new **Console App** (C language).
 - Open **Project → Properties** and configure:
 
-#### ➕ C/C++ → General → Additional Include Directories: C:\mysql-connector-c-6.1.11-winx64\include
-#### ➕ Linker → General → Additional Library Directories: C:\mysql-connector-c-6.1.11-winx64\lib
-#### ➕ Under Linker → Input → Additional Dependencies: libmysql.lib
+#### ➕ C/C++ → General → Additional Include Directories: 
+`C:\mysql-connector-c-6.1.11-winx64\include`
+#### ➕ Linker → General → Additional Library Directories: 
+`C:\mysql-connector-c-6.1.11-winx64\lib`
+#### ➕ Under Linker → Input → Additional Dependencies: 
+`libmysql.lib`
 
 ### Copy `libmysql.dll` to your project’s **output directory** (e.g., `Debug/` or `Release/`).
 
